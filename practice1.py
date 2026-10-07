@@ -39,7 +39,7 @@
 #     print("Odd")
 
 
-# Find the Missing Number
+# Method 1: Find the Missing Number
 
 numbers = [1, 2, 3, 5, 6]
 
