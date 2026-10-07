@@ -28,3 +28,12 @@ for i in range(1, 11):
         print("Even")
     else:
         print(i)
+
+
+# Even or Odd
+number = 7
+
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
