@@ -1,39 +1,49 @@
-# Largest Number
+# # Largest Number
 
-a = 15
-b = 27
-c = 9
+# a = 15
+# b = 27
+# c = 9
 
-if a > b and a > c:
-    print(a)
-elif b > a and b > c:
-    print(b)
-else:
-    print(c)
+# if a > b and a > c:
+#     print(a)
+# elif b > a and b > c:
+#     print(b)
+# else:
+#     print(c)
 
-# List Sum
+# # List Sum
 
-numbers = [4, 7, 2, 9, 1, 6]
+# numbers = [4, 7, 2, 9, 1, 6]
 
-total = 0
+# total = 0
 
-for number in numbers:
-    total = total + number
+# for number in numbers:
+#     total = total + number
 
-print(total)
+# print(total)
 
-# Loop 
-for i in range(1, 11):
-    if i % 2 == 0:
-        print("Even")
-    else:
-        print(i)
+# # Loop 
+# for i in range(1, 11):
+#     if i % 2 == 0:
+#         print("Even")
+#     else:
+#         print(i)
 
 
-# Even or Odd
-number = 7
+# # Even or Odd
+# number = 7
 
-if number % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
+# if number % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+
+# Find the Missing Number
+
+numbers = [1, 2, 3, 5, 6]
+
+for i in range(1, 7):
+    if i not in numbers:
+        print("Missing number:", i)
+
