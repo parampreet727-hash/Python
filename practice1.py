@@ -60,3 +60,11 @@ actual = sum(numbers)
 missing = expected - actual
 
 print("Missing number:", missing)
+
+# Method 1: Find the Missing Number
+
+numbers1 = [1, 2, 3, 4, 6, 7, 8, 9]
+
+for j in range(1, 7):
+    if j not in numbers1:
+        print("Missing number:", j)
