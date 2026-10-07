@@ -47,3 +47,16 @@ for i in range(1, 7):
     if i not in numbers:
         print("Missing number:", i)
 
+
+# Method 2: Using the sum formula
+
+numbers = [1, 2, 4, 5, 6]
+
+n = 6
+
+expected = n * (n + 1) // 2
+actual = sum(numbers)
+
+missing = expected - actual
+
+print("Missing number:", missing)
