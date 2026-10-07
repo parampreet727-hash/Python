@@ -11,7 +11,7 @@
 # else:
 #     print(c)
 
-# # List Sum
+# #Method : List Sum
 
 # numbers = [4, 7, 2, 9, 1, 6]
 
