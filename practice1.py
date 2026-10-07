@@ -22,7 +22,7 @@
 
 # print(total)
 
-# # Loop 
+# # Method : Loop 
 # for i in range(1, 11):
 #     if i % 2 == 0:
 #         print("Even")
@@ -30,7 +30,7 @@
 #         print(i)
 
 
-# # Even or Odd
+# # Method: Even or Odd
 # number = 7
 
 # if number % 2 == 0:
