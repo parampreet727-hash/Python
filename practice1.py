@@ -68,3 +68,19 @@ numbers1 = [1, 2, 3, 4, 6, 7, 8, 9]
 for j in range(1, 7):
     if j not in numbers1:
         print("Missing number:", j)
+
+# Python Program: Palindrome Number
+
+n = int(input("Enter a number: "))
+original = n
+reverse = 0
+
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+
+if original == reverse:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
