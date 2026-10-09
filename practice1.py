@@ -84,3 +84,19 @@ if original == reverse:
     print("Palindrome")
 else:
     print("Not a palindrome")
+
+# Find duplicates: Find duplicate elements in [1, 2, 3, 2, 4, 1].
+
+numbers = [1, 2, 3, 2, 4, 1]
+
+duplicates = []
+seen = set()
+
+for num in numbers:
+    if num in seen:
+        if num not in duplicates:
+            duplicates.append(num)
+    else:
+        seen.add(num)
+
+print("Duplicates:", duplicates)
